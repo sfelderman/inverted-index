@@ -1,0 +1,51 @@
+Use of body-worn cameras sees complaints against police ‘virtually vanish’, study finds
+ 
+Year-long study of almost 2,000 officers across UK and US forces shows introduction of wearable cameras led to a 93% drop in complaints made against police by the public – suggesting the cameras result in behavioural changes that ‘cool down’ potentially volatile encounters.
+
+Body-worn cameras are fast becoming standard kit for frontline law enforcers, trumpeted by senior officers and even the US President as a technological ‘fix’ for what some see as a crisis of police legitimacy. Evidence of effectiveness has, however, been limited in its scope. 
+
+Now, new results from one of the largest randomised-controlled experiments in the history of criminal justice research, led by the University of Cambridge’s Institute of Criminology, show that the use by officers of body-worn cameras is associated with a startling 93% reduction in citizen complaints against police. 
+
+Researchers say this may be down to wearable cameras modifying behaviour through an ‘observer effect’: the awareness that encounters are recorded improves both suspect demeanour and police procedural compliance. Essentially, the “digital witness” of the camera encourages cooler heads to prevail.
+
+The experiment took place across seven sites during 2014 and early 2015, including police from areas such as the UK Midlands and the Californian coast, and encompassing 1,429,868 officer hours across 4,264 shifts in jurisdictions that cover a total population of two million citizens. The findings are published today in the journal Criminal Justice and Behaviour. 
+
+The researchers write that, if levels of complaints offer at least some guide to standards of police conduct – and misconduct – these findings suggest that use of body-worn cameras are a “profound sea change in modern policing”.  
+
+“Cooling down potentially volatile police-public interactions to the point where official grievances against the police have virtually vanished may well lead to the conclusion that the use of body-worn cameras represents a turning point in policing,” said Cambridge criminologist and lead author Dr Barak Ariel. 
+
+“There can be no doubt that body-worn cameras increase the transparency of frontline policing. Anything that has been recorded can be subsequently reviewed, scrutinised and submitted as evidence.”
+
+“Individual officers become more accountable, and modify their behaviour accordingly, while the more disingenuous complaints from the public fall by the wayside once footage is likely to reveal them as frivolous.
+
+“The cameras create an equilibrium between the account of the officer and the account of the suspect about the same event – increasing accountability on both sides.”
+
+However, Ariel cautions that one innovation, no matter how positive, is unlikely to provide a panacea for a deeply rooted issue such as police legitimacy.
+
+Complaints against police are costly: both financially and in terms of public trust, say researchers. In the US, complaints can be hugely expense – not least through multimillion-dollar lawsuits. In the UK last year, the IPCC reported a continuous rise in complaints across the majority of forces.
+
+Ariel worked with colleagues from RAND Europe and six different police forces: West Midlands, Cambridgeshire, West Yorkshire, the Police Service of Northern Ireland, and Rialto and Ventura in California, to conduct the vast experiment.
+
+Each trial was managed by a local point of contact, either an officer or civilian staff member – all graduates of the Cambridge University Police Executive Programme.
+
+Every week for a year, the researchers randomly assigned each officer shift as either with cameras (treatment) or without (control), with all officers experiencing both conditions.
+
+Across all seven trial sites during the 12 months preceding the study, a total of 1,539 complaints were lodged against police, amounting to 1.2 complaints per officer. By the end of the experiment, complaints had dropped to 113 for the year across all sites – just 0.08 complaints per officer – marking a total reduction of 93%.
+
+Surprisingly, the difference between the treatment and control groups once the experiment began was not statistically significant; nor was the variations between the different sites.
+
+Yet the before/after difference caused by the overall experimental conditions across all forces was enormous. While only around half the officers were wearing cameras at any one time, complaints against police right across all shifts in all participating forces almost disappeared. 
+
+Researchers say this may be an example of “contagious accountability”: with large scale behavioural change – in officers but also perhaps in the public – seeping into almost all interactions, even during camera-less control shifts, once the experiment had introduced camera protocols to participating forces.
+
+"It may be that, by repeated exposure to the surveillance of the cameras, officers changed their reactive behaviour on the streets – changes that proved more effective and so stuck," said co-author Dr Alex Sutherland of RAND Europe.
+
+"With a complaints reduction of nearly 100% across the board, we find it difficult to consider alternatives to be honest," he said. 
+
+Critically, researchers say these behaviour changes rely on cameras recording entire encounters, and officers issuing an early warning that the camera is on - reminding all parties that the 'digital witness' is in play right from the start, and triggering the observer effect. 
+
+In fact, results from the same experiment, published earlier this year, suggest that police use-of-force and assaults on officers actually increase if a camera is switched on in the middle of an interaction, as this can be taken as an escalation of the situation by both officer and suspect.
+
+"The jolt of issuing a verbal reminder of filming at the start of an encounter nudges everyone to think about their actions more consciously. This might mean that officers begin encounters with more awareness of rules of conduct, and members of the public are less inclined to respond aggressively," explained Ariel.
+
+"We suspect that this is the 'treatment' that body-worn cameras provide, and the mechanism behind the dramatic reduction in complaints against police we have observed in our research."
