@@ -1,0 +1,87 @@
+{
+  "parser": "babel-eslint",
+
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "plugins": [
+    'react'
+  ],
+
+  "globals": {
+    "Promise": true
+  },
+
+  // 0 (disabled) rules below are disabling rules we inherited from the Web Discipline-organized eslint-config rules.
+  // If a rule is purely stylistic, and annoys one or more people on the team, we tend to just disable it.
+  // 2 (error) rules are reserved for things that need to be fixed before code goes to production.
+  "rules": {
+    "array-bracket-spacing": 0,
+    "brace-style": 0,
+    "camelcase": [1, {properties: "never"}],
+    "comma-dangle": [1, "never"],
+    "comma-spacing": 0,
+    "complexity": 0,  // Warnings for long switch...case blocks aren't useful to us.
+    "computed-property-spacing": 0, // foo[ 'value' ] should be allowed
+    "consistent-return": 1,
+    "curly": 1,
+    "default-case": 1,
+    "dot-location": [1, "property"],
+    "dot-notation": 1,
+    "eqeqeq": 1,
+    "guard-for-in": 1,
+    "indent": 0,
+    "key-spacing": 0,
+    "keyword-spacing": 0,
+    "max-depth": 1,
+    "max-len": [1, {"code": 120, "ignoreTrailingComments": true, "ignoreUrls": true}], // 120-char limit helpful for browser debugging and multi-pane IDE editing.
+    "new-cap": 1,
+    "no-bitwise": 1,
+    "no-caller": 1,
+    "no-console": [1, { allow: ["warn", "error"] }],
+    "no-constant-condition": 1,
+    "no-debugger": 2,
+    "no-else-return": 0, // Some of us like using an extra else { } block. Readability concerns are minor.
+    "no-extra-bind": 1,
+    "no-extra-boolean-cast": 1,
+    "no-extra-semi": 1,
+    "no-floating-decimal": 1,
+    "no-implicit-coercion": [1, { boolean: false} ],  // Some of us prefer !!(var) over Boolean(var)
+    "no-inline-comments": 0,
+    "no-irregular-whitespace": 1,
+    "no-multi-spaces": 0,
+    "no-new-wrappers": 1,
+    "no-param-reassign": 0,  // Too often not doing this clutters things up
+    "no-redeclare": 1,
+    "no-return-assign": 1,
+    "no-shadow": 1,
+    "no-throw-literal": 1,
+    "no-trailing-spaces": 0,
+    "no-undef": 1,
+    "no-unreachable": 1,
+    "no-unused-expressions": 1,
+    "no-unused-vars": 1,
+    "no-use-before-define": [1, "nofunc"],
+    "no-warning-comments": [2, { "terms": ["xxx", "fixme"], "location": "anywhere" }], // See "warning comment conventions" in DEV-README.md. "TODO" is benign, and we don't want to discourage its use.
+    "operator-linebreak": [1, "before"],  // TODO: Opinions wanted!
+    "quotes": [1, "single", { allowTemplateLiterals: true }],
+    "radix": 1,
+    "react/jsx-boolean-value": 0, // We explicitly set the values of boolean flags as opposed to treating like properties
+    "react/jsx-curly-spacing": 0,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "semi": ["warn", "always"],
+    "space-before-blocks": 1,
+    "space-in-parens": 0,
+    "space-infix-ops": 0,
+    "valid-jsdoc": 0, // Some of us use incomplete jsdoc syntax, but overall, we're not trying to generate jsdoc documentation.
+    "vars-on-top": 1,
+    "wrap-iife": 1
+  },
+
+  "env": {
+    "browser": true,
+    "node": true,
+  }
+
+}

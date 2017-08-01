@@ -1,6 +1,6 @@
 // currently comes in in a string
 
-export const createDict = (data, dict) => {
+export const createDict = (data, dict, name) => {
 	if (!dict) {
 		dict = {};
 	}
@@ -10,9 +10,14 @@ export const createDict = (data, dict) => {
 			word = clean(word);
 			if (word) {
 				if (word in dict) {
-					dict[word].push([lineCount])
+					if (name in dict[word]) {
+						dict[word][name].push(lineCount)
+					} else {
+						dict[word][name] = [lineCount];
+					}
 				} else {
-					dict[word] = [[lineCount]]
+					dict[word] = {};
+					dict[word][name] = [lineCount];
 				}
 			}
 		});
@@ -22,9 +27,9 @@ export const createDict = (data, dict) => {
 }
 
 export const clean = (word) => {
-	var str = ""
+	var str = '';
 	const chars = "\".,?!'_/!\n“‘";
-	for (var i = 0; i < word.length; i++) {
+	for (let i = 0; i < word.length; i++) {
 		const ch = word.charAt(i);
 		if (!chars.includes(ch)) {
 			str += ch;
@@ -38,28 +43,4 @@ export const clean = (word) => {
 	}
 
 	return str.toLowerCase();
-}
-
-// var dict = {};
-
-// const file = '/Users/sean/InvertedIndex/text.txt';
-
-// fs.readFile(file, 'utf8', function (err,data) {
-// 	if (err) {
-// 	return console.log(err);
-// 	}
-// 	createDict(data);
-// });
-
-
-
-// function cleanWithRegex(word) {
-// 	const match = word.match(/^(?:(?:\W)+)?((\w+)(\'\w+)?)(?:(?:\W)+)?$/);
-// 	if (match) {
-// 		return match[1];
-// 	} else {
-// 		return null;
-// 	}
-// }
-
-
+};
