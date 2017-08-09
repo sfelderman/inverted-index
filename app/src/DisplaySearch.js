@@ -10,8 +10,9 @@ let DisplaySearch = ({dict, files, query}) => {
   if (!result) {
     result = '';
   } else {
+    console.log('in result')
     result = Object.keys(result).map((name, index) => {
-      return <FileBlock key={index} name={name} data={files[name]} />
+      return <FileBlock key={index} name={name} data={files[name]} query={query} locations={result} />
     })
   }
 

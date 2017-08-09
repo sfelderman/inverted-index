@@ -5,7 +5,7 @@ import {createDict} from './util/createDict.js';
 
 let DragSubmit = ({dict, sendData, uploadFile}) => {
 	const drop_handler = (ev) => {
-	  // console.log("Drop");
+	  console.log("Drop");
 	  ev.preventDefault();
 	  // If dropped items aren't files, reject them
 	  let dt = ev.dataTransfer;
@@ -18,10 +18,10 @@ let DragSubmit = ({dict, sendData, uploadFile}) => {
 					const name = f.name;
 	        var reader = new FileReader();
 
-					reader.onload = function(e) {
-	        	let data = e.target.result;
-						uploadFile(name, data);
-						sendData(data, dict, name);
+				reader.onload = function(e) {
+		        	let data = e.target.result;
+					sendData(data, dict, name);
+					uploadFile(name, data);
 	        }
 
     			reader.readAsText(f);
