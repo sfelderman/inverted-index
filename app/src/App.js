@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import DragSubmit from './DragSubmit';
-import SearchBar from './SearchBar';
-import DisplaySearch from './DisplaySearch';
+import SearchBar from './search/SearchBar';
+import DisplaySearch from './display/DisplaySearch';
 import styles from './App.css';
 
 class App extends Component {

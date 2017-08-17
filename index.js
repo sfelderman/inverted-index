@@ -15,7 +15,6 @@ function createDict(data) {
 }
 
 function clean(word) {
-	console.log('before: ', word)
 	var str = ""
 	const chars = "\".,?!\'_/!\n";
 	for (var i = 0; i < word.length; i++) {
@@ -30,7 +29,6 @@ function clean(word) {
 	if (str == "\'") {
 		str = "";
 	}
-	console.log('after: ', str)
 
 	return str.toLowerCase();
 }
@@ -41,7 +39,7 @@ const file = '/Users/sean/InvertedIndex/text.txt';
 
 fs.readFile(file, 'utf8', function (err,data) {
 	if (err) {
-	return console.log(err);
+	return console.warn(err);
 	}
 	createDict(data);
 });
@@ -56,5 +54,3 @@ fs.readFile(file, 'utf8', function (err,data) {
 // 		return null;
 // 	}
 // }
-
-

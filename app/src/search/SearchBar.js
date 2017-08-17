@@ -1,20 +1,25 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {updateQuery} from './actions';
+import {updateQuery} from '../actions';
+import {clean} from '../util/createDict';
+import SearchOptions from './SearchOptions';
 
 let SearchBar = ({onSubmit}) => {
 	const checkSubmit = (e) => {
 		if (e.key === 'Enter' || e.target.keyCode === 13) {
 			e.preventDefault();
-			onSubmit(e.target.value.trim())
+			onSubmit(clean(e.target.value.trim()));
 			e.target.value = '';
 		}
 	}
 
 	return (
-		<form >
-			<input onChange={checkSubmit} className="querySearch" type="text" placeholder="Search Here" autoFocus onKeyPress={checkSubmit}></input>
-		</form>
+		<div className='in-line'>
+			<form >
+				<input onChange={checkSubmit} className="querySearch" type="text" placeholder="Search Here" autoFocus onKeyPress={checkSubmit}></input>
+			</form>
+			<SearchOptions />
+		</div>
 	)
 }
 

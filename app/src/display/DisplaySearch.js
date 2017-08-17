@@ -1,16 +1,16 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import {clean} from '../util/createDict';
 import FileBlock from './FileBlock';
-import Mark from 'front-markjs';
-
 
 let DisplaySearch = ({dict, files, query}) => {
-  let result = dict[query];
-
+  let result = dict[query.toLowerCase()];
+  if (!result) {
+    result = dict[clean(query)];
+  }
   if (!result) {
     result = '';
   } else {
-    console.log('in result')
     result = Object.keys(result).map((name, index) => {
       return <FileBlock key={index} name={name} data={files[name]} query={query} locations={result} />
     })

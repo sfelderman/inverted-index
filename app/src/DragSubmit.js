@@ -5,7 +5,6 @@ import {createDict} from './util/createDict.js';
 
 let DragSubmit = ({dict, sendData, uploadFile}) => {
 	const drop_handler = (ev) => {
-	  console.log("Drop");
 	  ev.preventDefault();
 	  // If dropped items aren't files, reject them
 	  let dt = ev.dataTransfer;

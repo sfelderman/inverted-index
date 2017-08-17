@@ -14,3 +14,7 @@
 .highlight {
 	background-color: yellow;
 }
+
+.in-line {
+	display: inline;
+}
